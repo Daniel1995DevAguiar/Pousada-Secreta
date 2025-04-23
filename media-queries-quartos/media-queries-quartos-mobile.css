@@ -1,0 +1,113 @@
+/******** INICIO MEDIA QUERIES DISPOSITIVOS MOBILE - ENTRE 320PX ATÉ 425PX *********/
+@media(min-width: 320px) and (max-width: 425px) {
+
+    /******** INICIO ESTILOS GERAIS *****/
+    .conteudo p,
+    li {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /******* FIM ESTILOS GERAIS ***********/
+
+    /****** INICIO ESTILOS TOPO *****/
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    /****** FIM ESTILOS TOPO *****/
+
+    /****** INICIO ESTILOS BANNER ******/
+
+    .banner {
+        background-position: center;
+    }
+
+    /****** FIM ESTILOS BANNER ******/
+
+    /******* INICIO ESTILOS SEÇÃO MAIN ******/
+    .imagens {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens img {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .lista-informacoes ul {
+        width: 45%;
+        white-space: nowrap;
+    }
+
+    /******* FIM ESTILOS SEÇÃO MAIN ********/
+
+
+    /****** INICIO ESTILOS RODAPE *****/
+
+    .rodape {
+        height: auto;
+    }
+
+    .destaque-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .rodape div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px auto 0 auto;
+    }
+
+    br {
+        display: none;
+    }
+
+    .rodape div .icones-rodape {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icones-rodape img {
+        margin-right: 5px;
+    }
+
+    .icones-rodape p {
+        font-size: 12px
+    }
+
+    .creditos {
+        margin: 20px auto;
+    }
+
+    /****** FIM ESTILOS RODAPE *****/
+}
+
+
+/******** FIM MEDIA QUERIES DISPOSITIVOS MOBILE - ENTRE 320PX ATÉ 425PX *********/

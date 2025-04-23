@@ -1,0 +1,277 @@
+/****** INICIO ESTILOS GERAIS *****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Souce Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+.topo, .logo, .link, .banner, .container-quartos, #rota, #sobre, .rodape, .creditos{
+    width: 100%;
+}
+
+/****** FIM ESTILOS GERAIS *****/
+
+/****** INICIO ESTILOS TOPO *****/
+
+.topo {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+
+.topo a:hover {
+    color: blue;
+}
+
+.topo .logo {
+    font-size: 28px;
+    text-align: center;
+}
+
+.logo a, .link a {
+    color: gray;
+}
+
+.logo span {
+    color: rgb(79, 79, 198);
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+/****** FIM ESTILOS TOPO *****/
+
+/****** INICIO ESTILOS BANNER *****/
+
+.banner {
+    background-image: url("../imagens/img-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    height: 60%;
+    width: 80%;
+    background-color: rgb(36, 164, 140, 0.5);
+    color: white;
+    border: 1px solid white;
+    flex-wrap: wrap;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.banner h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+/****** FIM ESTILOS BANNER *****/
+
+/****** INICIO ESTILOS CONTAINER-QUARTOS *****/
+
+.container-quartos .saudacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.saudacoes h2 {
+    margin-bottom: 15px;
+}
+
+.saudacoes p {
+    line-height: 48px;
+}
+
+.container-quartos .quartos {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quartos article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quartos img {
+    width: 80%;
+    flex: 1 1 auto;
+}
+
+.quartos a {
+    color: black;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.quartos a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/****** FIM ESTILOS CONTAINER-QUARTOS *****/
+
+/****** INICIO ESTILOS ROTA *****/
+
+#rota {
+    text-align: center;
+    margin: 80px auto;
+}
+
+#rota p {
+    margin: 20px 0;
+}
+
+/****** FIM ESTILOS ROTA *****/
+
+/****** INICIO ESTILOS SOBRE *****/
+
+#sobre {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-sobre {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    height: 100%;
+    align-items: center;
+}
+
+.container-sobre .esquerda, .container-sobre .direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-sobre img {
+    width: 180px;
+    height: 140px;
+    border: 1px solid black;
+}
+
+.container-sobre p {
+    font-size: 16px;
+}
+
+.container-sobre div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container-sobre .coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 140px;
+}
+
+.coluna-descricao {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+/****** FIM ESTILOS SOBRE *****/
+
+/****** INICIO ESTILOS RODAPE *****/
+
+.rodape {
+    background-color: #4c9c7c;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.destaque-rodape {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.rodape div {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.rodape .destaque-tamanho {
+    font-size: 20px;
+}
+
+.icones-rodape {
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.creditos {
+   text-align: center;
+}
+
+.destaque-borda {
+    width: 80%;
+    border: 1px solid green;
+    margin: 30px auto;
+}
+
+/****** FIM ESTILOS RODAPE *****/
+
+
+
+
+
+

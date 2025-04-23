@@ -1,0 +1,126 @@
+/****** INICIO MEDIA QUERIES TABLET - DISPOSITIVOS ENTRE 426PX ATÉ 768PX *******/
+@media(min-width: 426px) and (max-width: 768px) {
+
+    /******** INICIO ESTILOS GERAIS *****/
+    .conteudo p,
+    li {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    /******* FIM ESTILOS GERAIS ***********/
+
+    /****** INICIO ESTILOS BANNER ******/
+
+    .banner {
+        background-position: center;
+    }
+
+    /****** FIM ESTILOS BANNER ******/
+
+    /******* INICIO ESTILOS SEÇÃO MAIN ******/
+    .imagens {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens img {
+        width: 80%;
+        height: 300px;
+        margin: 10px auto;
+    }
+
+    .lista-informacoes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lista-informacoes ul {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        width: 50%;
+        white-space: nowrap;
+        margin: 0 auto;
+    }
+
+    /******* FIM ESTILOS SEÇÃO MAIN ********/
+
+    /****** INICIO ESTILOS RODAPE *****/
+
+    .rodape {
+        height: auto;
+    }
+
+    .destaque-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .rodape div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px auto 0 auto;
+    }
+
+    br {
+        display: none;
+    }
+
+    .rodape div .icones-rodape {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icones-rodape img {
+        margin-right: 5px;
+    }
+
+    .icones-rodape p {
+        font-size: 14px
+    }
+
+    .creditos {
+        margin: 20px auto;
+    }
+
+    /****** FIM ESTILOS RODAPE *****/
+}
+
+/****** FIM MEDIA QUERIES TABLET - DISPOSITIVOS ENTRE 426PX ATÉ 768PX *******/
+
+/****** INICIO ESTILO ESPECIFICO PARA CLASSE TOPO ENTRE 426PX ATÉ 540PX *******/
+
+@media(min-width: 426px) and (max-width: 540px) {
+    /****** INICIO ESTILOS TOPO *****/
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+}
+
+/****** FIM ESTILO ESPECIFICO PARA CLASSE TOPO ENTRE 426PX ATÉ 540PX *******/

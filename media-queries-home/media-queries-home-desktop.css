@@ -1,0 +1,175 @@
+/******* INICIO MEDIA QUERIES DESKTOP - DISPOSITIVOS ENTRE 769PX ATÉ 1024px ***********/
+@media(min-width: 769px) and (max-width: 1024px) {
+    /****** INICIO ESTILOS CONTAINER-QUARTOS *****/
+    .quartos {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .saudacoes {
+        width: 85%;
+        margin: 40px auto;
+    }
+
+    .quartos img {
+        width: 100%;
+    }
+
+    .quartos article a {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    /****** INICIO ESTILOS SOBRE *****/
+    #sobre {
+        height: auto;
+    }
+
+    .container-sobre {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-sobre img {
+        height: 400px;
+    }
+
+    .container-sobre img,
+    .container-sobre p {
+        width: 85%;
+    }
+
+    .container-sobre p {
+        margin: 0 auto;
+    }
+
+    .container-sobre h4 {
+        margin: 15px auto;
+    }
+
+    .container-sobre .coluna {
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .coluna-descricao {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /****** FIM ESTILOS SOBRE *****/
+
+    /****** INICIO ESTILOS RODAPE *****/
+
+    .rodape {
+        height: auto;
+    }
+
+    .destaque-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .rodape div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px auto 0 auto;
+    }
+
+    br {
+        display: none;
+    }
+
+    .rodape div .icones-rodape {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icones-rodape img {
+        margin-right: 5px;
+    }
+
+    .icones-rodape p {
+        font-size: 18px
+    }
+
+    .creditos {
+        margin: 20px auto;
+    }
+
+    /****** FIM ESTILOS RODAPE *****/
+
+
+    /****** FIM ESTILOS CONTAINER-QUARTOS *****/
+}
+
+/******* FIM MEDIA QUERIES DESKTOP - DISPOSITIVOS ENTRE 769PX ATÉ 1024px ***********/
+
+/****** INICIO MEDIA QUERIES SEÇÃO RODAPE DESKTOP ENTRE 1025PX ATÉ 1100PX ********/
+@media(min-width: 1025px) and (max-width: 1100px) {
+    /****** INICIO ESTILOS RODAPE *****/
+
+    .rodape {
+        height: auto;
+    }
+
+    .destaque-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .rodape div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px auto 0 auto;
+    }
+
+    br {
+        display: none;
+    }
+
+    .rodape div .icones-rodape {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icones-rodape img {
+        margin-right: 5px;
+    }
+
+    .icones-rodape p {
+        font-size: 18px
+    }
+
+    .creditos {
+        margin: 20px auto;
+    }
+
+    /****** FIM ESTILOS RODAPE *****/
+}
+
+/****** FIM MEDIA QUERIES SEÇÃO RODAPE DESKTOP ENTRE 1025PX ATÉ 1100PX ********/

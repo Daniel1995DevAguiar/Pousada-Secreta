@@ -1,0 +1,185 @@
+/****** INICIO ESTILOS GERAIS ******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Souce Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteudo p,
+li {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.topo, .banner,
+.conteudo,
+.rodape,
+.creditos {
+    width: 100%;
+}
+
+.conteudo {
+    margin: 80px auto;
+    text-align: center;
+}
+
+/****** FIM ESTILOS GERAIS ******/
+
+/****** INICIO ESTILOS TOPO ******/
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: white;
+}
+
+.topo a:hover {
+    color: blue;
+}
+
+.topo .logo {
+    font-size: 28px;
+}
+
+.logo a,
+.link a {
+    color: gray;
+}
+
+.logo span {
+    color: rgb(79, 79, 198);
+}
+
+.link a {
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+/****** FIM ESTILOS TOPO ******/
+
+/****** INICIO ESTILOS BANNER ******/
+
+.banner {
+    background-image: url("../imagens/img-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+
+/****** FIM ESTILOS BANNER ******/
+
+/****** INICIO ESTILOS MAIN ******/
+
+.descricao p {
+    margin: 30px 0;
+}
+
+.imagens {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagens img {
+    width: 30%;
+    height: 200px;
+}
+
+.informacoes {
+    width: 100%;
+    margin: 45px auto;
+}
+
+.titulo-informacoes h4 {
+    margin-bottom: 20px;
+}
+
+.lista-informacoes ul {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    margin: 0 auto;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.lista-informacoes li {
+    line-height: 40px;
+}
+
+/****** FIM ESTILOS MAIN **********/
+
+/****** INICIO ESTILOS RODAPE *****/
+
+.rodape {
+    background-color: #4c9c7c;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.destaque-rodape {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.destaque-rodape div {
+    display: flex;
+    width: 25%;
+}
+
+.rodape div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rodape .destaque-tamanho {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.icones-rodape {
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.creditos {
+    text-align: center;
+}
+
+.destaque-borda {
+    width: 80%;
+    border: 1px solid green;
+    margin: 30px auto;
+}
+
+/****** FIM ESTILOS RODAPE *****/
