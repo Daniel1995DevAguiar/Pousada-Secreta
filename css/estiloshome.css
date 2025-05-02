@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-p, li {
+p, li, h4 {
     font-size: 20px;
 }
 
@@ -195,7 +195,7 @@ p, li {
 }
 
 .container-sobre p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .container-sobre div {
