@@ -3,8 +3,8 @@
     /****** INICIO ESTILOS TOPO *****/
 
     .link {
-        width: 700px;
-        justify-content: space-between;
+        width: 600px;
+        justify-content: space-evenly;
     }
 
     /****** FIM ESTILOS TOPO *****/
@@ -137,16 +137,5 @@
 
     /****** FIM ESTILOS RODAPE *****/
 }
-
-/**** INICIO MEDIA QUERIE ESPECIFICA CLASSE LINK - DISPOSITIVOS ENTRE 525PX ATÉ 600PX ****/
-@media(min-width: 525px) and (max-width: 600px) {
-    .link {
-        justify-content: space-evenly;
-    }
-}
-
-/**** FIM MEDIA QUERIE ESPECIFICA CLASSE LINK - DISPOSITIVOS ENTRE 525PX ATÉ 600PX ****/
-
-
 
 /******** FIM MEDIA QUERIES TABLET - DISPOSITIVOS ENTRE 426PX ATÉ 768PX *************/
